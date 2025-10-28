@@ -1,13 +1,16 @@
 body {
     font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color:
 }
-        nav {
-            color: #434455;
-            font-size: 16px
-        }
-
+    
 .header {
-list-style: none; }
+list-style: none; 
+}
+nav {
+    color: #434455;
+    font-size: 16px
+}
     
 
 .page-title {
