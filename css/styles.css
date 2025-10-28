@@ -13,20 +13,19 @@ ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-}
 nav {
     font-size: 16px
 }
-    
-
-.page-title {
-    color: #2E2F42;
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
+.link {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-weight: Bold;
-    line-height: 2%;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5
+    
 }
+    
 
