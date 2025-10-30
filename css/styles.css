@@ -3,9 +3,10 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-h1, h2, h3 { 
+h1, h2 { 
     font-family: "Roboto", sans-serif;
     letter-spacing: 2%;
+
 }
     
 .header {
@@ -68,13 +69,46 @@ nav {
 }
 
 .page-title {
+    color: #ffffff;
     font-size: 56px;
     text-align: center;
-    line-height: 60px;
+    line-height: 1.7;
     letter-spacing: 3px;
     font-weight: bold; 
     letter-spacing: 2%;
     font-style: Bold;
+    background-color:#2e2f42;
 }
-    
 
+.button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer
+}
+.button:hover {
+    background-color: #404BBF;
+}
+button:focus;
+{
+    background-color: #404BBF;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.features {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+;
+}
