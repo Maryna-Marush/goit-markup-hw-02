@@ -2,7 +2,6 @@ body {
     font-family: "Roboto",sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-
 }
     
 .header {
@@ -15,11 +14,19 @@ ul {
 
 nav {
     font-size: 16px;
+}
+.nav-link {
+    text-decoration: none;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
 }
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf; 
+}
+    
 .web {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -30,8 +37,6 @@ nav {
     text-transform: uppercase;
     color:#4d5ae5;
 }
-    
-    
     .studio {
         text-decoration: none;
         font-family: "Raleway", sans-serif;
@@ -40,6 +45,22 @@ nav {
         font-size: 18px;
         line-height: 21px;
         letter-spacing: 3%;
+}
+
+.address-page {
+    font-style: normal;
+}
+
+.address-link {
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf; 
 }
     
 
