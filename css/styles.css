@@ -5,12 +5,13 @@ body {
 }
 h1, h2 { 
     font-family: "Roboto", sans-serif;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 
 }
     
 .header {
 list-style: none;
+font-weight: 500;
 
 }
 ul {
@@ -33,9 +34,9 @@ nav {
         color: #2e2f42;
         
     }
-        .page-nav:hover,
-        .page-nav:focus {
-            color: #404bbf;
+.page-nav .link:hover,
+.page-nav .nav-link:focus {
+color: #404bbf;
         }
 .nav-link {
     text-decoration: none;
@@ -92,8 +93,7 @@ nav {
     text-align: center;
     line-height: 1.7;
     letter-spacing: 3px;
-    font-weight: bold; 
-    font-style: Bold;
+    font-weight: bold;
     background-color:#2e2f42;
     letter-spacing: 0.02em;
 }
@@ -109,8 +109,7 @@ nav {
 .button:hover {
     background-color: #404BBF;
 }
-button:focus;
-{
+button:focus {
     background-color: #404BBF;
 }
 
