@@ -114,7 +114,6 @@ color: #404bbf;
 }
 .h3 {
     font-family: "Roboto", sans-serif;
-    letter-spacing: 2%;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -122,8 +121,13 @@ color: #404bbf;
     color: #2e2f42;
 
 }
+.class="features" {
+    background-color: #2e2f42;
+    font-size: 56px;
+    line-height: 1.07;
+}
 .section-title {
-font-size: 36px;
+    font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
