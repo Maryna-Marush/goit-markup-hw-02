@@ -3,7 +3,16 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-h1, h2 { 
+.maim-title
+{
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        font-size: 56px;
+        line-height: 1.07
+
+    }
+
+h2 { 
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
 
