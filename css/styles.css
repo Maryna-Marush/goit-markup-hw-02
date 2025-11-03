@@ -130,7 +130,7 @@ color: #404bbf;
     color: #2e2f42;
 
 }
-.class="features" {
+.features {
     background-color: #2e2f42;
     font-size: 56px;
     line-height: 1.07;
@@ -151,6 +151,7 @@ color: #404bbf;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        list-style: none;
 }
 .team {
     background-color: #F4F4FD;
@@ -160,10 +161,6 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-
-}
-.team-member {
-    background-color: #FFFFFF;
 
 }
 .text {
@@ -176,9 +173,14 @@ color: #404bbf;
 .footer {
 background-color:#2e2f42;
 }
-span {
+.footer span {
     color: #f4f4fd;
 }
 .text-footer {
-color: #F4F4FD;
+color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-members {
+    background-color: #FFFFFF;
 }
